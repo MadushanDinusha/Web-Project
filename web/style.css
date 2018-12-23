@@ -1,0 +1,112 @@
+body
+{
+    margin:0;
+    padding: 0;
+    color:white;
+    font-family: monospace;
+    background-color: #e6e6e6;
+    font-size: 16;
+    font-weight: 100;
+    background-image: url(c.jpg);
+    background-size: cover;
+}
+
+#login
+{
+    position: relative;
+    margin: 4% auto;
+    height:800px;
+    width: 500px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    background: rgba(0,0,0,0.7);
+
+}
+
+.left
+{
+    position: :absolute;
+    width: 350px;
+
+    margin-left: 60px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+h1
+{
+   font-family:cursive;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    border-radius:8px;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor:text;
+    background-color: #e6faff;
+    transition: 0.2s ease;
+}
+textarea
+{
+    border-radius:8px;
+    padding: 4px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor:text;
+    background-color: #e6faff;
+    transition: 0.2s ease;
+}
+input[type="submit"]
+{
+    width: 220px;
+    height:32px;
+    margin-left: 40px;
+    background-color:deepskyblue;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    color:black;
+    font-family: cursive;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+    background-color: aqua;
+    color:black;
+    transition: 0.2s ease;
+    font-size: 18;
+}
+input[type="text"]:focus,input[type="password"]:focus,textarea:focus
+{
+    background-color: #b3f0ff;
+}
+.danger
+{
+    color: red;
+    font-weight: bold;
+
+}
